@@ -103,7 +103,7 @@ section{
     background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4), transparent), url(../image-pro/image\ business/aerial-view-container-cargo-ship-sea.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,14 +199,16 @@ header.sticky{
     line-height: 1;
     padding: 0px 10px ;
     column-count: 2;
-    column-gap: 40px;
+    column-gap: 100px;
     margin-top: 12px;
 }
 /* about */
 
 /* service-content */
 .services{
-    background: var(--second-bg-color);
+    background: var(--third-bg-color);
+    border-bottom: 2px solid var(--bg-color);
+    border-top: 2px solid var(--bg-color);
 }
 .main-text{
     text-align: center;
@@ -401,6 +403,7 @@ header.sticky{
     }
     .about h4{
         text-align: center;
+        line-height: 1;
     }
     .contact{
         grid-template-columns: 1fr;
